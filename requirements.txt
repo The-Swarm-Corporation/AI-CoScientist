@@ -1,5 +1,1 @@
-torch
-zetascale
 swarms
-python-dotenv
-loguru

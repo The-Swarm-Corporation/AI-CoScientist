@@ -601,4 +601,25 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
    assert research_goal.strip() != ""
    ```
 
-For additional support, visit our [GitHub Issues](https://github.com/The-Swarm-Corporation/AI-CoScientist/issues) or join our [Discord community](https://discord.gg/agora-999382051935506503).
+## Citation
+
+If you use AI-CoScientist in your research, please cite both the original paper and this software implementation:
+
+```bibtex
+@article{gottweis2024towards,
+    title={Towards an AI co-scientist},
+    author={Juraj Gottweis and Wei-Hung Weng and Alexander Daryin and Tao Tu and Anil Palepu and Petar Sirkovic and Artiom Myaskovsky and Felix Weissenberger and Keran Rong and Ryutaro Tanno and Khaled Saab and Dan Popovici and Jacob Blum and Fan Zhang and Katherine Chou and Avinatan Hassidim and Burak Gokturk and Amin Vahdat and Pushmeet Kohli and Yossi Matias and Andrew Carroll and Kavita Kulkarni and Nenad Tomasev and Vikram Dhillon and Eeshit Dhaval Vaishnav and Byron Lee and Tiago R D Costa and José R Penadés and Gary Peltz and Yunhan Xu and Annalisa Pawlosky and Alan Karthikesalingam and Vivek Natarajan},
+    year={2024},
+    institution={Google Cloud AI Research, Google Research, Google DeepMind, Houston Methodist, Sequome, Fleming Initiative and Imperial College London, Stanford University},
+    url={https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf}
+}
+
+@software{ai_coscientist_framework,
+    title={AI-CoScientist: A Multi-Agent Framework for Collaborative Scientific Research},
+    author={The Swarm Corporation},
+    year={2024},
+    url={https://github.com/The-Swarm-Corporation/AI-CoScientist}
+}
+```
+
+For additional support, visit our [GitHub Issues](https://github.com/The-Swarm-Corporation/AI-CoScientist/issues) or join our [Discord community](https://discord.gg/swarms-999382051935506503).

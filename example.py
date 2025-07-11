@@ -1,6 +1,5 @@
-from ai_coscientist import AIScientistFramework
 import json
-from loguru import logger
+from ai_coscientist import AIScientistFramework
 
 ai_coscientist = AIScientistFramework(
     model_name="gemini/gemini-2.0-flash",  # Or "gemini/gemini-2.0-flash" if you have access
@@ -66,4 +65,4 @@ else:
 try:
     ai_coscientist.save_state()
 except Exception as e:
-    logger.error(f"Exception during main execution: {e}")
+    print(f"Error saving state: {e}")

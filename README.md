@@ -99,7 +99,6 @@ ai_coscientist = AIScientistFramework(
     evolution_top_k=3,
     verbose=True
 )
-```
 
 # Define your research goal
 research_goal = "Develop novel approaches for improving reasoning capabilities in large language models"
@@ -114,6 +113,8 @@ for i, hypothesis in enumerate(results['top_ranked_hypotheses'], 1):
     print(f"   Elo Rating: {hypothesis['elo_rating']}")
     print(f"   Win Rate: {hypothesis['win_rate']}%")
 ```
+
+---
 
 ## Architecture
 

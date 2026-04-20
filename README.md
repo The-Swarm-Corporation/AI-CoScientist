@@ -213,7 +213,7 @@ If you use this work in your research, please cite both the original paper and t
 
 ## 🔗 Related Work
 
-- [Original Paper](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf) - Towards an AI co-scientist
+- [Original Paper](https://arxiv.org/pdf/2502.18864) - Towards an AI co-scientist
 - [Swarms Framework](https://github.com/kyegomez/swarms) - Multi-agent AI orchestration
 - [Google Research](https://research.google) - Original research institution
 
